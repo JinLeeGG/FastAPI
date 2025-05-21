@@ -11,14 +11,17 @@ This repository contains a FastAPI demonstration project. Follow the instruction
 
 ### 1. Clone the Repository
 
+Git Bash:
 ```bash
 git clone https://github.com/JinLeeGG/FastAPI.git
+```
+Command Prompt:
+```bash
 cd FastAPI
 ```
-
 ### 2. Create a Virtual Environment
 
-Open a terminal and run:
+Open a Command Prompt and run:
 
 ```bash
 python -m venv venv
@@ -28,12 +31,18 @@ python -m venv venv
 
 #### On Windows:
 ```bash
-venv\Scripts\activate.bat
+cd venv\Scripts
+```
+```bash
+activate.bat
 ```
 
 #### On macOS/Linux:
 ```bash
-source venv/bin/activate.bat
+source venv/bin/
+```
+```bash
+activate.bat
 ```
 
 ### 4. Install Dependencies
